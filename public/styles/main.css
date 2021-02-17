@@ -1,0 +1,33 @@
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
+  transition: 300ms;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  transition: 300ms;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  transition: 300ms;
+}
+
+body {
+  background: #f0f0f5;
+  transition: 300ms;
+}
+
+a {
+  text-decoration: none;
+  transition: 300ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title-color);
+  transition: 300ms; 
+}
